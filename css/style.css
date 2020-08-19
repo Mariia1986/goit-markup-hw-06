@@ -623,6 +623,7 @@ body {
   max-width: 528px;
   height: 581px;
   background-color: var(--primary-white-color);
+  padding: 40px;
 }
 .close-modal {
   position: absolute;
@@ -639,4 +640,39 @@ body {
   visibility: hidden;
   pointer-events: none;
   opacity: 0;
+}
+.modal-title {
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  color: var(--title-text-color);
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+.form-position {
+  position: relative;
+}
+.input-count {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-bottom: 28px;
+  padding-left: 45px;
+}
+.input-name {
+  font-size: 12px;
+  line-height: 1.17;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+.input-icon {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+}
+.input-count:focus,
+.input-count:focus.input-count + .input-icon {
+  border-color: var(--accent-color);
+  fill: var(--accent-color);
 }
