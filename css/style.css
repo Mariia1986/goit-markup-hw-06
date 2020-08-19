@@ -454,18 +454,16 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-
+  padding: 0;
   letter-spacing: 0.06em;
   margin-left: 13px;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+  vertical-align: center;
 }
-.btn-footer-container {
-  display: flex;
-  align-items: center;
-}
+
 .form {
   display: flex;
 }
