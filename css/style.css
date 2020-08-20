@@ -635,6 +635,10 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   color: var(--title-text-color);
   border-radius: 50%;
+  cursor: pointer;
+}
+.close-modal:focus {
+  fill: var(--accent-color);
 }
 .is-hidden {
   visibility: hidden;
@@ -717,4 +721,14 @@ body {
   border: none;
   padding: 0px;
   cursor: pointer;
+}
+.checkbox-text,
+.conditions {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.conditions {
+  color: var(--accent-color);
 }
