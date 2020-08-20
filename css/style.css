@@ -621,7 +621,7 @@ body {
   transform: translate(-50%, -50%);
   width: 100%;
   max-width: 528px;
-  height: 581px;
+  height: auto;
   background-color: var(--primary-white-color);
   padding: 40px;
 }
@@ -698,4 +698,23 @@ body {
 .label-checkbox {
   display: block;
   margin-bottom: 30px;
+}
+.submit-btn {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 200px;
+  min-height: 50px;
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  border: none;
+  padding: 0px;
+  cursor: pointer;
 }
