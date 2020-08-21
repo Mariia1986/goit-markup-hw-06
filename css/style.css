@@ -489,7 +489,8 @@ body {
   margin-left: 10px;
   fill: var(--primary-white-color);
 
-  right: 28px 13px;
+  right: 28px;
+  top: 13px;
 }
 /*Страница "Портфолио"*/
 .button {
