@@ -480,6 +480,7 @@ body {
   font-size: 16px;
   line-height: 1.25;
   padding: 15px 0px 15px 16px;
+  outline: none;
 }
 .join-icon {
   position: absolute;
@@ -504,6 +505,7 @@ body {
   color: var(--title-text-color);
   background-color: var(--background-button-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 .button:hover,
 .button:focus {
@@ -664,6 +666,7 @@ body {
   border-radius: 4px;
   padding-left: 45px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 .label-form {
   display: block;
@@ -695,7 +698,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
-
+  outline: none;
   color: rgba(117, 117, 117, 0.5);
 }
 .label-comment {
@@ -746,6 +749,7 @@ body {
   padding: 0px;
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 .submit-btn:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
